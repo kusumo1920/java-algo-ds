@@ -9,6 +9,9 @@ public class LinkedListDemo {
         myLinkedList.removeLast();
         myLinkedList.prepend(3);
         myLinkedList.removeFirst();
+        myLinkedList.insert(1, 8);
+        myLinkedList.remove(3);
+        myLinkedList.reverse();
         myLinkedList.printList();
     }
 }
